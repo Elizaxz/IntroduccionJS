@@ -7,7 +7,14 @@ const producto = {
     disponible: true,
 }
 
+// para agregar nuevas propiedades
+
+producto.imagen = 'imagen.jpg';
+
+//eliminar propiedades
+delete producto.disponible;
 
 console.log(producto);
 
-console.log(producto.precio);
+//console.log(producto.precio);
+
